@@ -19,5 +19,5 @@ int main() {
     
     display(arr,3,4);
 
-    return 0;
+    
 }
