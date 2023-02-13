@@ -7,9 +7,9 @@ int main() {
     
     //cout << *p;
     cout << &num << endl; // Gives the address of num 
-    cout << p << endl;
+    cout << p << endl;  // It also gives the address of num
     cout << num << endl; // Gives the value as it is
-    cout << *p << endl;
+    cout << *p << endl;  // It also gives the value of num as it is
     
     cout << sizeof(num) << endl;
     cout << sizeof(p) << endl;
