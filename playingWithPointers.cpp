@@ -17,7 +17,7 @@ int main() {
     *p = (*p)*10;
     cout << num << endl;
     cout << *p << endl;
-    int * p = NULL;
+    int * p = NULL; // Initializing null pointer
     cout << "The value of above pointer is " << *p;
     
     return 0;
