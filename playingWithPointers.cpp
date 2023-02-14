@@ -20,5 +20,8 @@ int main() {
     int * p = NULL; // Initializing null pointer
     cout << "The value of above pointer is " << *p;
     
+    int arr[5] = {1,2,3,4,5};
+    //arr = arr + 1; It cannot be possible to change the address of very first location
+    
     return 0;
 }
