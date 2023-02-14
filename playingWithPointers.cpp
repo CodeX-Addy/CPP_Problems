@@ -13,7 +13,7 @@ int main() {
     
     cout << sizeof(num) << endl;
     cout << sizeof(p) << endl;
-    int *p = &num;
+    int *p = &num; //*p has the value same value as of num
     *p = (*p)*10;
     cout << num << endl;
     cout << *p << endl;
