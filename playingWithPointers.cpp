@@ -14,7 +14,7 @@ int main() {
     cout << sizeof(num) << endl;
     cout << sizeof(p) << endl;
     int *p = &num; //*p has the value same value as of num
-    *p = (*p)*10;
+    *p = (*p)*10; // 10 is multiplied with the value of num i.e. 5
     cout << num << endl;
     cout << *p << endl;
     int * p = NULL; // Initializing null pointer
