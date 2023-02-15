@@ -24,7 +24,7 @@ int main() {
     arr = arr + 1; //ERROR! It cannot be possible to change the address of very first location
     int *p = &arr[0];
     cout << p << endl;
-    p = p + 1;// It is okay to implement
+    p = p + 1;// It is okay to implement and it will point to the next address location
     cout << p << endl;
     
     return 0;
