@@ -19,7 +19,5 @@ int main() {
     deleteElement(arr,size,2);
     size = size - 1;
     display(arr,size);
-    
-
     return 0;
 }
