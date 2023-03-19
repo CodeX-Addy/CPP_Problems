@@ -20,11 +20,9 @@ void countingSort(int array[], int size, int place) {
   for (int i = 0; i < size; i++)
     count[(array[i] / place) % 10]++;
 
-  // Calculate cumulative count
   for (int i = 1; i < max; i++)
     count[i] += count[i - 1];
-
-  // Place the elements in sorted order
+  
   for (int i = size - 1; i >= 0; i--) {
     output[count[(array[i] / place) % 10] - 1] = array[i];
     count[(array[i] / place) % 10]--;
@@ -34,17 +32,14 @@ void countingSort(int array[], int size, int place) {
     array[i] = output[i];
 }
 
-// Main function to implement radix sort
 void radixsort(int array[], int size) {
-  // Get maximum element
+
   int max = getMax(array, size);
 
-  // Apply counting sort to sort elements based on place value.
   for (int place = 1; max / place > 0; place *= 10)
     countingSort(array, size, place);
 }
 
-// Print an array
 void printArray(int array[], int size) {
   int i;
   for (i = 0; i < size; i++)
@@ -52,7 +47,6 @@ void printArray(int array[], int size) {
   cout << endl;
 }
 
-// Driver code
 int main() {
   int array[] = {121, 432, 564, 23, 1, 45, 788};
   int n = sizeof(array) / sizeof(array[0]);
