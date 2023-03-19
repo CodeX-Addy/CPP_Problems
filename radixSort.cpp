@@ -1,9 +1,6 @@
-// Radix Sort in C++ Programming
-
 #include <iostream>
 using namespace std;
 
-// Function to get the largest element from an array
 int getMax(int array[], int n) {
   int max = array[0];
   for (int i = 1; i < n; i++)
@@ -12,7 +9,6 @@ int getMax(int array[], int n) {
   return max;
 }
 
-// Using counting sort to sort the elements in the basis of significant places
 void countingSort(int array[], int size, int place) {
   const int max = 10;
   int output[size];
@@ -21,7 +17,6 @@ void countingSort(int array[], int size, int place) {
   for (int i = 0; i < max; ++i)
     count[i] = 0;
 
-  // Calculate count of elements
   for (int i = 0; i < size; i++)
     count[(array[i] / place) % 10]++;
 
