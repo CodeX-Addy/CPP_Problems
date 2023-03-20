@@ -16,6 +16,6 @@ int main() {
             cin >> arr[i][j];
         }
     }
-    display(arr,3,4);
+    display(arr,3,4);// Printing the array elements
     return 0;
 }
