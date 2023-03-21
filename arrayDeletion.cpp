@@ -17,7 +17,7 @@ int main() {
     int arr[5] = {1,2,3,4,5},size=5;
     display(arr,size);
     deleteElement(arr,size,2);
-    size = size - 1;
+    size = size - 1
     display(arr,size);
     return 0;
 }
