@@ -1,6 +1,4 @@
-// Understanding the basic syntax and programs
-// C++ program to implement
-// standard input
+// Syntax overview
 #include <iostream>
 using namespace std;
 int main()
@@ -13,12 +11,9 @@ int main()
   cout << "User entered number " << a << endl;
 }
 
-// C++ program to implement
-// arithmetic operators
+// Arithmetic operators
 #include <iostream>
 using namespace std;
-  
-// Driver code
 int main()
 {
   int a = 5;
@@ -37,12 +32,9 @@ int main()
   return 0;
 }
 
-// C++ program to implement
-// relational operators
+// Relational operators
 #include <iostream>
 using namespace std;
-  
-// Driver code
 int main()
 {
   int a = 5;
