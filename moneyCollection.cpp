@@ -11,7 +11,5 @@ int main() {
          break;
     }
     cout << sum;
-    
-
     return 0;
 }
