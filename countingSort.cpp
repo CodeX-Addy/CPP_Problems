@@ -18,7 +18,7 @@ void countSort(int arr[], int n){
     for(int i=0; i<n; i++){
         count[i] = 0;
     }
-    // Updating count array on the basis of occurence of elements
+    // Updating the count array on the basis of occurence of elements
     for(int i=0;i<n; i++){
         count[arr[i]]++;
     }
