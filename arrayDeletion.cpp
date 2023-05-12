@@ -8,7 +8,7 @@ void display(int arr[], int n){
 }
 
 void deleteElement(int arr[], int size, int index){
-    for(int i=index; i<size-1; i++){
+    for(int i=index; i<size-1; i++){// Logic for element deletion
         arr[i] = arr[i+1];
     }
     
