@@ -10,7 +10,6 @@ public:
         }
         //reverse first and last column
         for(int i=0;i<matrix.size();i++){
-            
             reverse(matrix[i].begin(),matrix[i].end());
         }
         
