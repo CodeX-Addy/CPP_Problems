@@ -12,6 +12,5 @@ int main() {
         a = b;
         b = nextNum;
     }
-
     return 0;
 }
