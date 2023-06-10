@@ -22,7 +22,7 @@ int binarySearch(int arr[], int n, int key){
 }
 
 int main() {
-    int a[5] = {2,5,6,7,8}; //Should be sorted
+    int a[5] = {2,5,6,7,8}; //Array should be sorted
     int k;
     cout << "Enter the key to be searched "<<endl;
     cin >> k;
