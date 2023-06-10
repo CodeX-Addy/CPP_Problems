@@ -17,7 +17,7 @@ int binarySearch(int arr[], int n, int key){
         }
         mid = s + (e - s)/2;
     }
-    return -1; // Indicates the key is not present
+    return -1; // Implies that key is not present
     
 }
 
