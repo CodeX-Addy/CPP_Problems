@@ -1,1 +1,1 @@
-This repo includes various cpp problems approaches including naive and optimized!! 
+This repo includes various cpp problems approaches including naive and optimized!
