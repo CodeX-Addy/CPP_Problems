@@ -137,7 +137,7 @@ int main() {
     return 0;
 }
 
-// Online C++ compiler to run C++ program online
+//Using for loop
 // 1
 // 12
 // 123
