@@ -161,8 +161,6 @@ int main() {
 }
 
 //Hollow square or retangle using for loop
-// Online C++ compiler to run C++ program online
-
 #include <iostream>
 using namespace std;
 
