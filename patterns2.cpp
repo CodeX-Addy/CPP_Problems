@@ -95,7 +95,6 @@ int main(){
 }
 
 //Butterfly pattern
-// Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
 
