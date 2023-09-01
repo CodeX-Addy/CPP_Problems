@@ -95,6 +95,16 @@ int main(){
 }
 
 //Butterfly pattern
+*         *
+**       **
+***     ***
+****   ****
+***** *****
+***** *****
+****   ****
+***     ***
+**       **
+*         *
 #include <iostream>
 using namespace std;
 
