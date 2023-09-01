@@ -143,9 +143,6 @@ int main() {
 }
 
 //A fancy pattern
-// Online C++ compiler to run C++ program online
-
-//fancy pattern
 #include <iostream>
 using namespace std;
 
