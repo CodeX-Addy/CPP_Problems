@@ -176,9 +176,9 @@ int main() {
 //   12321
 //  1234321
 // 123454321
+
 #include<iostream>
 using namespace std;
-//Numeric palindrome equilateral triangle
 int main(){
     int n;
     cin >> n;
