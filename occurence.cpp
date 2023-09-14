@@ -32,10 +32,9 @@ int main() {
     return 0;
 }
 
-
+//This program is finding the last occurence of an element
 #include <iostream>
 using namespace std;
-
 int firstOccur(int arr[], int n, int target){
     int s=0;
     int e=n-1;
