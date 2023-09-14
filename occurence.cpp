@@ -1,4 +1,4 @@
-
+//This program is finding the first occurence of an element
 #include <iostream>
 using namespace std;
 
