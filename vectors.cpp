@@ -13,7 +13,7 @@ void print(vector<int>v){
 }
 int main() {
   vector<int>v;
-  // a way to push elements in vector
+  // First way to push elements in vector
   // v.push_back(1);
   // v.push_back(2);
   // v.push_back(3);
