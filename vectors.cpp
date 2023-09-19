@@ -39,7 +39,34 @@ int main() {
   print(v);
 
   return 0;
-  
+}
+
+//Different ways to initialise a vector
+// Online C++ compiler to run C++ program online
+#include <iostream>
+#include<vector>
+using namespace std;
+
+void print(vector<int> v){
+    for(int i=0; i<v.size(); ++i){
+        cout << v.at(i) << " ";
+    }
+    cout << endl;
+}
+int main() {
+    vector<int> v = {1,2,3,4,5};
+    vector<int> v1(5, -1);
+    vector<int> v2{6,7,8,9,10};
+    print(v1);
+    
+    v1.pop_back();
+    print(v1);
+    
+    v1.push_back(2);
+    print(v1);
+    print(v2);
+
+    return 0;
 }
 
 
