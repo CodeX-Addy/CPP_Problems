@@ -2,6 +2,7 @@
 #include<vector>
 using namespace std;
 
+//Printing a vector
 void print(vector<int>v){
   for(int i=0; i<v.size(); ++i){
     cout << "Printing vector: " <<  v[i] << " ";
@@ -10,6 +11,12 @@ void print(vector<int>v){
   }
   cout << endl;
 
+  //Another way to print
+  void print(vector<int> v){
+    for(auto it:v){
+        cout << it << " ";
+    }
+}
 }
 int main() {
   vector<int>v;
@@ -42,7 +49,6 @@ int main() {
 }
 
 //Different ways to initialise a vector
-// Online C++ compiler to run C++ program online
 #include <iostream>
 #include<vector>
 using namespace std;
