@@ -79,7 +79,7 @@ int main() {
 #include<iostream>
 #include<vector>
 using namespace std;
-
+int main(){
  vector<vector<int> > arr(5, vector<int>(5,8));//Initialization
   for(int i=0; i<arr.size(); ++i){//Upto rows
     for(int j=0; j<arr[i].size(); ++j){ //Upto Columns
@@ -88,6 +88,8 @@ using namespace std;
     cout << endl;
   }
 }
+//Jagged vector
+
 
 
 
