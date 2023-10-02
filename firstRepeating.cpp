@@ -14,3 +14,5 @@ int firstRepeat(int arr[], int n){
     }
     return -1;
 }
+
+//Refer to leetcode-codestd repo for optimized solution using hash map
