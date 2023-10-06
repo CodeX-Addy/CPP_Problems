@@ -1,5 +1,3 @@
-// Online C++ compiler to run C++ program online
-//void pointers
 #include <iostream>
 #include<vector>
 using namespace std;
