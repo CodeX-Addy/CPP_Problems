@@ -42,5 +42,41 @@ int main(){
         
         cout << ele << " ";
     }
+
+    //Reversing queue using recursion
+
+#include <iostream>
+#include<stack>
+#include<queue>
+using namespace std;
+
+void reverseQueue(queue<int> &q){
+    //base case
+    if(q.empty()) return;
+    
+    int f = q.front();
+    q.pop();
+    
+    reverseQueue(q);
+    q.push(f);
+}
+int main() {
+    
+    queue<int> q;
+    q.push(10);
+    q.push(20);
+    q.push(30);
+    q.push(50);
+    q.push(100);
+    
+    reverseQueue(q);
+     while(!q.empty()){
+        int t = q.front();
+        q.pop();
+        cout << t << " ";
+    }
+    cout << endl;
+    return 0;
+}
     
 }
