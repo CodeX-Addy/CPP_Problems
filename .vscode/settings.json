@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 12,
+    "editor.fontFamily": "Proggy",
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.activityBar.location": "top",
+    "editor.cursorBlinking": "phase"
+}
