@@ -2,6 +2,6 @@
     "editor.fontSize": 12,
     "editor.fontFamily": "Proggy",
     "workbench.activityBar.iconClickBehavior": "toggle",
-    "workbench.activityBar.location": "top",
+    "workbench.activityBar.location": "default",
     "editor.cursorBlinking": "phase"
 }

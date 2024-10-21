@@ -13,6 +13,11 @@ bool isPoweroftwo(int n){
     return false;
 }
 
+//Faster approach
+bool isPoweroftwoBitwise(int n){
+    return (n > 0) && ((n & (n-1)) == 0);
+}
+
 int main() {
     int num;
     cin >> num;
