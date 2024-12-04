@@ -1,19 +1,17 @@
     int minDist(vector<int>& arr, int x, int y) {
         // code here
-        int x_ptr=-1, y_ptr=-1;
+        int xptr = -1, yptr = -1;
         int dist = INT_MAX;
         
         for(int i=0; i<arr.size(); ++i){
             if(arr[i] == x)
-                x_ptr = i;
+                xptr = i;
             if(arr[i] == y)
-                y_ptr = i;
-            if(x_ptr!=-1 && y_ptr!=-1){
-                dist = min(dist, abs(x_ptr - y_ptr));
+                yptr = i;
+            
+            if(xptr!=-1 && yptr!=-1){
+                dist = min(dist, abs(xptr - yptr));
+            }
         }
-        }
-   
-        if(x_ptr == -1 || y_ptr == -1)
-            return -1;
-        return dist;
+        return dist==INT_MAX ? -1 : dist;
     }
