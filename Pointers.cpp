@@ -21,7 +21,7 @@ int main() {
     cout << "The value of above pointer is " << *p;
     
     int arr[5] = {1,2,3,4,5};
-    arr = arr + 1; //ERROR! It cannot be possible to change the address of very first location
+   //arr = arr + 1; //It throws an ERROR! It cannot be possible to change the address of very first location
     int *p = &arr[0];
     cout << p << endl;
     p = p + 1;// It is okay to implement and it will point to the next address location
