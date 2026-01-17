@@ -306,3 +306,37 @@ int main() {
     
     return 0;
 }
+
+// Pattern
+/*
+
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int n;
+    cin >> n;
+    
+    int i = 0;
+    int cnt = 0;
+    
+    while(i < n){
+        int j = 0;
+        while(j <= i){
+            cout << cnt + 1 << " ";
+            cnt += 1;
+            j += 1;
+        }cout << endl;
+        i += 1;
+    }
+    
+    return 0;
+}
