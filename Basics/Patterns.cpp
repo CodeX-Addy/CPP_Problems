@@ -711,3 +711,39 @@ int main() {
     
     return 0;
 }
+
+// Pattern
+/*
+
+E 
+D E 
+C D E 
+B C D E 
+A B C D E 
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int n;
+    cin >> n;
+    
+    int i = 0;
+    char c = 'A';
+
+    while(i < n){
+        int j = 0;
+        int cnt = 0;
+        while(j <= i){
+            cout << char(c + n - i - 1 + cnt) << " ";
+            j += 1;
+            cnt += 1;
+        }cout << endl;
+        i += 1;
+    }
+    
+    return 0;
+}
