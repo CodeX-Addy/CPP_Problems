@@ -340,3 +340,38 @@ int main() {
     
     return 0;
 }
+
+//Pattern
+/*
+
+1 
+2 3 
+3 4 5 
+4 5 6 7 
+5 6 7 8 9 
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int n;
+    cin >> n;
+    
+    int i = 0;
+    
+    while(i < n){
+        int j = 0;
+        int val = i;
+        while(j <= i){
+            cout << val + 1 << " ";
+            val += 1;
+            j += 1;
+        }cout << endl;
+        i += 1;
+    }
+    
+    return 0;
+}
