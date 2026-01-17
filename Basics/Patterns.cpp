@@ -191,6 +191,16 @@ int main() {
 }
 
 //Full pyramid pattern
+/*
+
+     * 
+    * * 
+   * * * 
+  * * * * 
+ * * * * * 
+* * * * * * 
+
+*/
 #include <iostream>
 using namespace std;
 
