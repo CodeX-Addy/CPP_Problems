@@ -638,3 +638,40 @@ int main() {
     
     return 0;
 }
+
+
+//Pattern
+/*
+
+A 
+B C 
+D E F 
+G H I J 
+K L M N O 
+
+*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    
+    int n;
+    cin >> n;
+    
+    int i = 0;    
+    char c = 'A';   
+    int cnt = 0;
+    
+    while(i < n){
+        int j = 0;
+        while(j <= i){
+            cout << char(c + cnt) << " ";
+            j += 1;
+            cnt += 1;
+        }cout << endl;
+        i += 1;
+    }
+    
+    return 0;
+}
