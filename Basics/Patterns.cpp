@@ -986,3 +986,53 @@ int main(){
         i = i + 1;
     }
 }
+
+//Pattern
+/*
+
+    1
+   121
+  12321
+ 1234321
+123454321
+
+*/
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    
+    int n;
+    cin >> n;
+    
+    int i = 0;
+    
+    while(i < n){
+        int j = 0;
+        int k = 0;
+        int cnt = 0;
+        int l = 0;
+        
+        while(j < n-i-1){
+            cout << " ";
+            j = j + 1;
+        }
+        
+        while(k < i + 1){
+            cout << cnt + 1;
+            cnt = cnt + 1;
+            k = k + 1;
+        }
+        
+        int cnt2 = i;
+        while(l < i){
+                cout << cnt2;
+                cnt2 = cnt2 - 1;
+                l = l + 1;
+            }
+        cout << endl;
+        
+        i = i + 1;
+    }
+}
